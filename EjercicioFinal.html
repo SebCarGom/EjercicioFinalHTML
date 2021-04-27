@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    table,
+    th,
+    td {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+
+    th,
+    td {
+        padding: 5px;
+        text-align: center;
+    }
+</style>
+
+<body>
+
+
+    <!--Esto es el header-->
+    <header id="header">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/800px-HTML5_logo_and_wordmark.svg.png"
+            width="100" height="100" />
+        <button type="submit">Login</button>
+    </header>
+
+    <!--Esto es el nav. Pero como no se están usando distintos .html y el documento es muy corto no tiene mucho sentido implementarlo.-->
+    <nav>
+        <ul>
+            <li><a href="#header">Header</a></li>
+            <li><a href="#aside1">Teléfonos</a></li>
+            <li><a href="#aside2">Lenguajes de Programación</a></li>
+            <li><a href="#footer">Enlaces de Ejemplo</a></li>
+        </ul>
+    </nav>
+
+    <!--Esto es el aside-->
+    <p><b>Números de Ejemplo:</b></p>
+    <aside id="aside1">
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="3">Números de Teléfono</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Nombre</td>
+                    <td>Apellido</td>
+                    <td>Teléfono</td>
+                </tr>
+                <tr>
+                    <td>Pablo</td>
+                    <td>García</td>
+                    <td>123456789</td>
+                </tr>
+                <tr>
+                    <td>Pedro</td>
+                    <td>Sánchez</td>
+                    <td>234567890</td>
+                </tr>
+                <tr>
+                    <td>Antonio</td>
+                    <td>Fernández</td>
+                    <td>345678901</td>
+                </tr>
+            </tbody>
+        </table>
+    </aside>
+
+    <!--Esto es otro aside-->
+    <aside id="aside2">
+        <figure>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg"
+                alt="Javascript" width="50" height="50">
+            <figcaption>Lenguaje de Programación - Javascript.</figcaption>
+        </figure>
+        <figure>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" alt="Python"
+                width="50" height="50">
+            <figcaption>Lenguaje de Programación - Python.</figcaption>
+        </figure>
+        <figure>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/7/73/Ruby_logo.svg" alt="Ruby" width="50"
+                height="50">
+            <figcaption>Lenguaje de Programación - Ruby.</figcaption>
+        </figure>
+    </aside>
+
+    <!--Esto es el footer-->
+    <footer id="footer">
+        <p><b>Estos son enlaces de ejemplo:</b></p>
+        <a href="https://en.wikipedia.org/wiki/HTML5">HTML 5</a><img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/800px-HTML5_logo_and_wordmark.svg.png"
+            width="50" height="50" /><br>
+        <a href="https://en.wikipedia.org/wiki/World_Wide_Web_Consortium">W3C</a><img
+            src="https://upload.wikimedia.org/wikipedia/commons/e/ed/W3C%C2%AE_Icon.svg" width="50" height="50" /><br>
+        <a href="https://en.wikipedia.org/wiki/Markup_language">Lenguaje de marcado</a><img
+            src="https://thumbs.dreamstime.com/b/lenguaje-de-marcado-hipertexto-html-icono-corchete-%C3%A1ngulo-c%C3%B3digo-para-aplicaciones-y-sitio-web-195765461.jpg"
+            width="50" height="50" /><br>
+    </footer>
+
+</body>
+
+</html>
